@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		622B891029EBDC4400DCB2A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 622B890F29EBDC4400DCB2A1 /* GoogleService-Info.plist */; };
 		62347CDE29EAF53D004765F5 /* RealmDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62347CDD29EAF53D004765F5 /* RealmDatabase.swift */; };
 		62347D0029EB234D004765F5 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62347CFF29EB234D004765F5 /* PlaceholderView.swift */; };
 		62347D0229EB3CAC004765F5 /* ListNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62347D0129EB3CAC004765F5 /* ListNoteView.swift */; };
@@ -20,7 +21,6 @@
 		629309FF29E979B8001D29E9 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629309FE29E979B8001D29E9 /* RegistrationView.swift */; };
 		62930A0329E97A3B001D29E9 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62930A0229E97A3B001D29E9 /* NoteListView.swift */; };
 		62930A0529E97A6A001D29E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62930A0429E97A6A001D29E9 /* AppDelegate.swift */; };
-		62930A0729E97BB9001D29E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62930A0629E97BB9001D29E9 /* GoogleService-Info.plist */; };
 		62930A0A29E98003001D29E9 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62930A0929E98003001D29E9 /* RegistrationViewModel.swift */; };
 		62930A0D29E98117001D29E9 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62930A0C29E98117001D29E9 /* ViewExtensions.swift */; };
 		62930A0F29E995B8001D29E9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62930A0E29E995B8001D29E9 /* LoginViewModel.swift */; };
@@ -38,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		622B890F29EBDC4400DCB2A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		62347CDD29EAF53D004765F5 /* RealmDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDatabase.swift; sourceTree = "<group>"; };
 		62347CFF29EB234D004765F5 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
 		62347D0129EB3CAC004765F5 /* ListNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNoteView.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		629309FE29E979B8001D29E9 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		62930A0229E97A3B001D29E9 /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
 		62930A0429E97A6A001D29E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62930A0629E97BB9001D29E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		62930A0929E98003001D29E9 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		62930A0C29E98117001D29E9 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		62930A0E29E995B8001D29E9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -114,8 +114,8 @@
 				629309EF29E9788B001D29E9 /* Features */,
 				629309E629E977E0001D29E9 /* Preview Content */,
 				629309E029E977DF001D29E9 /* MoveoTasksApp.swift */,
+				622B890F29EBDC4400DCB2A1 /* GoogleService-Info.plist */,
 				629309E429E977E0001D29E9 /* Assets.xcassets */,
-				62930A0629E97BB9001D29E9 /* GoogleService-Info.plist */,
 			);
 			path = MoveoTasks;
 			sourceTree = "<group>";
@@ -354,7 +354,7 @@
 			files = (
 				629309E829E977E0001D29E9 /* Preview Assets.xcassets in Resources */,
 				629309E529E977E0001D29E9 /* Assets.xcassets in Resources */,
-				62930A0729E97BB9001D29E9 /* GoogleService-Info.plist in Resources */,
+				622B891029EBDC4400DCB2A1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
